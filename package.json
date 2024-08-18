@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev:pudding-camp": "vite --config src/pudding-camp/vite.config.js",
+    "dev:qr-generator": "vite --config src/qr-generator/vite.config.js",
+    "build:pudding-camp": "vite build --config src/pudding-camp/vite.config.js",
+    "build:qr-generator": "vite build --config src/qr-generator/vite.config.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
