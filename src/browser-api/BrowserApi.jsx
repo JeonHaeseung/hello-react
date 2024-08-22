@@ -1,6 +1,7 @@
 import { useSyncExternalStore } from 'react';
 // React 18에서 새로 도입된 훅
 // 클라이언트와 서버 간의 상태 동기화하는 역할
+// https://react.dev/reference/react/useSyncExternalStore#subscribing-to-a-browser-api
 
 function subscribe(callback) {
     window.addEventListener("online", callback);
