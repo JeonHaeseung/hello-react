@@ -7,13 +7,16 @@
     "dev:pudding-camp": "vite --config src/pudding-camp/vite.config.js",
     "dev:qr-generator": "vite --config src/qr-generator/vite.config.js",
     "dev:browser-api": "vite --config src/browser-api/vite.config.js",
+    "dev:color-change": "vite --config src/color-change/vite.config.js",
     "build:pudding-camp": "vite build --config src/pudding-camp/vite.config.js",
     "build:qr-generator": "vite build --config src/qr-generator/vite.config.js",
     "build:browser-api": "vite build --config src/browser-api/vite.config.js",
+    "build:color-change": "vite build --config src/color-change/vite.config.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "boring-avatars": "^1.10.2",
     "downloadjs": "^1.4.7",
     "html-to-image": "^1.11.11",
     "react": "^18.3.1",
